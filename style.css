@@ -1,15 +1,24 @@
 body {
     font-size: 15pt;
 }
+#particles-js{
+  background: gray;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
 h1{
   text-align: center;
   font-weight: bold;
   font-family: fantasy;
 }
-#container{
+.container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: purple;
+  opacity: .2s;
 }
 .lightThree,
 .lightTwo,
